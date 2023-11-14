@@ -1,45 +1,142 @@
 body {
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
-    background-color: #000000;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  body > img {
-    margin: 0 10px;
-  }
-  
-  img {
-    max-height: 250px;
-  }
-  
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("/images/background-money.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.body-dolar {
+  background-image: url("/images/background-dolar.jpg");
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.converter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.item {
+  text-align: center;
+  margin: 10px;
+}
+
+.image {
+  border-radius: 20px;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+body>img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.btn-index-grad {
+  background-image: linear-gradient(to right, #134E5E 0%, #71B280 51%, #134E5E 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 5px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-index-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.input-money {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.money-input {
+  font-size: 16px;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 4px;
+  width: 200px;
+  color: rgb(29, 26, 26);
+}
+
+.money-input:focus {
+  outline: none;
+  border: 2px solid #116314; /* Exemplo de borda colorida */
+  background-color: #e8f0fe; /* Exemplo de cor de fundo */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn-grad-money {
+  background-image: linear-gradient(to right, #000000 0%, #0f9b0f 51%, #000000 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  margin: 10px;
+  display: inline-block;
+}
+
+.btn-grad-money:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
