@@ -21,6 +21,8 @@ body {
 .page-title {
   color: #ffffff;
   margin: 0 0 5px;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 55px;
 }
 
 .page-subtitle {
@@ -43,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .item {
@@ -139,4 +141,18 @@ input[type="number"]::-webkit-outer-spin-button {
   background-position: right center;
   color: #fff;
   text-decoration: none;
+}
+
+.result{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  margin: 10px auto;
+  width: fit-content;
+  max-width: 80%;
+  font-size: 22px;
+  font-weight: bold;
 }
