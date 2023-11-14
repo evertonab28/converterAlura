@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-image: url("/docs/assets/images/background-money.jpg");
+  background-image: url("./docs/assets/images/background-money.jpg");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -10,15 +10,15 @@ body {
 }
 
 .body-dolar {
-  background-image: url("/docs/assets/images/background-dolar.jpg");
+  background-image: url("./docs/assets/images/background-dolar.jpg");
 }
 
 .body-euro {
-  background-image: url("/docs/assets/images/background-euro.jpg");
+  background-image: url("./docs/assets/images/background-euro.jpg");
 }
 
 .body-space {
-  background-image: url("/docs/assets/images/background-space.jpg");
+  background-image: url("./docs/assets/images/background-space.jpg");
 }
 
 .container {
